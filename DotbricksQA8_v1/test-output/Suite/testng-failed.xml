@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="instances">
+  <listeners>
+    <listener class-name="Marketplace.Listeners"/>
+  </listeners>
+  <test name="Services(failed)" parallel="instances">
+    <classes>
+      <class name="Marketplace.PurchaseServiceCredit">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Marketplace.PurchaseServiceCredit -->
+      <class name="Marketplace.MyServices">
+        <methods>
+          <include name="UpgradeServiceAndVerifyAmountInLedger"/>
+          <include name="teardown"/>
+          <include name="downgradeServiceAndVerifyAmountInLedger"/>
+          <include name="initialize"/>
+          <include name="VerifyUpgradeQuantityInMyServices"/>
+          <include name="VerifyDowngradeQuantityInMyServices"/>
+        </methods>
+      </class> <!-- Marketplace.MyServices -->
+      <class name="Marketplace.PurchaseServiceOffline">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Marketplace.PurchaseServiceOffline -->
+      <class name="Marketplace.PurchaseService">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Marketplace.PurchaseService -->
+    </classes>
+  </test> <!-- Services(failed) -->
+</suite> <!-- Failed suite [Suite] -->

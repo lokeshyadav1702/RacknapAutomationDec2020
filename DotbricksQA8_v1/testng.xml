@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="instances">
+
+<listeners>
+
+<listener class-name="Marketplace.Listeners"/>
+
+
+</listeners>
+
+  <test name="PurchaseMSOfficeOnline">
+    <classes>
+      
+      <class name="Marketplace.PurchaseMSOffice365Online"/>
+       </classes>
+        </test> 
+        
+            
+       <test name="PurchaseMSOfficeWithCredit">
+       
+       <classes>
+        
+      <class name="Marketplace.PurchaseMSOffice365Credit"/>
+      
+       </classes>
+        </test> 
+        
+         <test name="PurchaseMSOfficeWithOffilne">
+          <classes>
+      <class name="Marketplace.PurchaseMSOffice365Offline"/>
+      </classes>
+        </test>
+        
+        <test name="Services">
+        
+         <classes>
+        
+       <class name="Marketplace.MyServices"/>
+      
+      </classes>
+        </test> 
+      <test name="PurchaseServerOnline">
+    <classes>
+      
+      <class name="Marketplace.PurchaseDedicatedServerOnline"/>
+       </classes>
+        </test> 
+        
+        <test name="PurchaseServerOffline">
+    <classes>
+      
+      <class name="Marketplace.PurchaseDedicatedServerOffline"/>
+       </classes>
+        </test> 
+       <test name="PurchaseServerWithCredit">
+    <classes>
+      
+      <class name="Marketplace.PurchaseDedicatedServerCredit"/>
+       </classes>
+        </test> 
+        
+         <test name="PurchasedomainOnline">
+    <classes>
+      
+      <class name="Marketplace.PurchaseDomainOnline"/>
+       </classes>
+        </test> 
+        
+        
+         <test name="PurchasedomainOffline">
+    <classes>
+      
+      <class name="Marketplace.PurchaseDomainOffline"/>
+       </classes>
+        </test> 
+        
+         <test name="PurchasedomainCredit">
+    <classes>
+      
+      <class name="Marketplace.PurchaseDomainCredit"/>
+       </classes>
+        </test> 
+        
+       <test name="SignUpValidation">
+    <classes>
+      
+      <class name="Marketplace.SignUp"/>
+       </classes>
+        </test> 
+        
+           <test name="PurchaseVPSCloudOnline">
+    <classes>
+      
+      <class name="Marketplace.PurchaseVPSCloudOnline"/>
+       </classes>
+        </test> 
+        
+           <test name="PurchaseVPSCloudOffline">
+    <classes>
+      
+      <class name="Marketplace.PurchaseVPSCloudOffline"/>
+       </classes>
+        </test> 
+        
+           <test name="PurchaseVPSCloudCredit">
+    <classes>
+      
+      <class name="Marketplace.PurchaseVPSCloudCredit"/>
+       </classes>
+        </test> 
+        
+   <test name="PurchaseAcronisOnline">
+    <classes>
+      
+      <class name="Marketplace.PurchaseAcronicsOnline"/>
+       </classes>
+        </test> 
+        
+           <test name="PurchaseAcronisOffline">
+    <classes>
+      
+      <class name="Marketplace.PurchaseAcronicsOffline"/>
+       </classes>
+        </test> 
+        
+           <test name="PurchaseAcronisCredit">
+    <classes>
+      
+      <class name="Marketplace.PurchaseAcronicsCredit"/>
+       </classes>
+        </test> 
+ 
+  <test name="PurchaseESDOnline">
+    <classes>
+      
+      <class name="Marketplace.PurchaseESDOnline"/>
+       </classes>
+        </test> 
+        
+           <test name="PurchaseESDOffline">
+    <classes>
+      
+      <class name="Marketplace.PurchaseESDOffline"/>
+       </classes>
+        </test> 
+        
+           <test name="PurchaseESDCredit">
+    <classes>
+      
+      <class name="Marketplace.PurchaseESDCredit"/>
+       </classes>
+        </test> 
+        
+             <test name="PurchaseAzurePostpaid">
+    <classes>
+      
+      <class name="Marketplace.PurchaseAzurePostpaid"/>
+       </classes>
+        </test> 
+        
+         <test name="PurchaseBulkOrderOnline">
+    <classes>
+      
+      <class name="Marketplace.PurchaseBulkOrderOnline"/>
+       </classes>
+        </test> 
+        
+           <test name="PurchaseBulkOrderOffline">
+    <classes>
+      
+      <class name="Marketplace.PurchaseBulkOrderOffline"/>
+       </classes>
+        </test> 
+        
+           <test name="PurchaseBulkOrderCredit">
+    <classes>
+      
+      <class name="Marketplace.PurchaseBulkOrderCredit"/>
+       </classes>
+        </test> 
+        
+              <test name="PurchaseBundleOnline">
+    <classes>
+      
+      <class name="Marketplace.PurchaseBundleOnline"/>
+       </classes>
+        </test> 
+        
+           <test name="PurchaseBundleOffline">
+    <classes>
+      
+      <class name="Marketplace.PurchaseBundleOffline"/>
+       </classes>
+        </test> 
+        
+           <test name="PurchaseBundleCredit">
+    <classes>
+      
+      <class name="Marketplace.PurchaseBundleCredit"/>
+       </classes>
+        </test> 
+</suite> <!-- Suite -->
